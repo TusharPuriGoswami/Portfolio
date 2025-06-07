@@ -25,7 +25,7 @@ function Footer() {
               <a
                 href="https://github.com/TusharPuriGoswami"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -33,9 +33,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href=""
+                href="https://twitter.com/your_twitter_handle"  // Replace with your actual Twitter profile URL
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -45,7 +45,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/tushar-puri-goswami-51a161315/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -55,7 +55,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/tush_aar_16/?hl=en"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

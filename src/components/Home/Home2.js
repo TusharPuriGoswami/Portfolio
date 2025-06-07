@@ -32,9 +32,7 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Software Development
-                </b>
+                <b className="purple">Software Development</b>
               </i>
               <br />
               <br />
@@ -70,17 +68,19 @@ function Home2() {
                   href="https://github.com/TusharPuriGoswami"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="GitHub"
                 >
                   <AiFillGithub />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://twitter.com/your_twitter_handle"  // ✅ Replace with your real Twitter link
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="Twitter"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -90,7 +90,8 @@ function Home2() {
                   href="https://www.linkedin.com/in/tushar-puri-goswami-51a161315/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
+                  aria-label="LinkedIn"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -101,6 +102,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  aria-label="Instagram"
                 >
                   <AiFillInstagram />
                 </a>
@@ -112,4 +114,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
